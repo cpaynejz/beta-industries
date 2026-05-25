@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Beta Industries · Contact</title>
+
+  <!-- PASTE GTM SNIPPET HERE -->
+
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; max-width: 720px; margin: 4rem auto; padding: 0 1rem; color: #1f2937; line-height: 1.6; }
+    h1 { color: #2563eb; }
+    .badge { display: inline-block; padding: 0.25rem 0.75rem; background: #dbeafe; color: #1e40af; border-radius: 9999px; font-size: 0.875rem; font-weight: 600; }
+    nav { margin: 1.5rem 0; padding: 0.75rem; background: #f1f5f9; border-radius: 0.5rem; }
+    nav a { margin-right: 1rem; color: #2563eb; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    form { margin-top: 1.5rem; }
+    label { display: block; margin-top: 0.75rem; }
+    input, textarea { width: 100%; padding: 0.5rem; margin-top: 0.25rem; border: 1px solid #cbd5e1; border-radius: 0.25rem; box-sizing: border-box; }
+    button { margin-top: 1rem; padding: 0.5rem 1rem; background: #2563eb; color: white; border: 0; border-radius: 0.25rem; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <!-- PASTE GTM NOSCRIPT HERE -->
+
+  <span class="badge">BETA INDUSTRIES · CONTACT</span>
+  <h1>Beta Industries — Contact</h1>
+  <nav>
+    <a href="./index.html">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./contact.html">Contact</a>
+  </nav>
+  <p>Form-submission fixture for testing form-submit triggers. The form below intentionally does not POST anywhere — submitting it just refreshes the page so the form_submit GTM trigger can fire.</p>
+
+  <form onsubmit="event.preventDefault(); document.getElementById('result').textContent='Form submitted at ' + new Date().toISOString();">
+    <label>Name <input name="name" /></label>
+    <label>Email <input type="email" name="email" /></label>
+    <label>Message <textarea name="message" rows="3"></textarea></label>
+    <button type="submit">Submit</button>
+  </form>
+  <p id="result" style="color:#059669;font-weight:600;"></p>
+
+  <p><a href="mailto:test@example.com">Email link · click to test linkClick trigger</a></p>
+  <p><a href="tel:+15555550100">Phone link · click to test linkClick trigger</a></p>
+</body>
+</html>
